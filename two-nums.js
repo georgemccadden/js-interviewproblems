@@ -11,3 +11,5 @@
 // 4. Can the outputs be determined from the input?  - In other words, do I have enough information to solve the problem?
 
 // 5. How should I label the important pieces of data that are a part of the problem? - Am I labeling the parameters of this function "numOne" and "numTwo"?
+
+// ** Explore Concrete Examples **
