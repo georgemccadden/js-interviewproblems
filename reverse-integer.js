@@ -20,3 +20,9 @@ const reversedNum = num => parseFloat(num.toString().split('').reverse().join(''
 // ex. num = ['-', '5', '4', '3', '2', '1', '0', '0']
 //     num.reverse(); // num equals ['0', '0', '1', '2', '3', '4', '5', '-']
 
+
+// Join it back into a string - "num.join('')" - reassembles the reversed characters into a string.
+// ex. num = ['0', '0', '1', '2', '3', '4', '5', '-']
+//     num.join(''); // num = '0012345-'
+
+
