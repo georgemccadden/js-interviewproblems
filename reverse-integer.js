@@ -13,5 +13,10 @@ const reversedNum = num => parseFloat(num.toString().split('').reverse().join(''
 
 // Split the string into an array - "num.split('')" - converts the string into an array of characters. Doing this will allow me to use the array reverse functions, which does not work on a string.
 // ex. num = '-5432100'
-//     num.split(''); // num equals ['-', '5', '4', '3', '2', '1', '0', '0'];
+//     num.split(''); // num equals ['-', '5', '4', '3', '2', '1', '0', '0']
+
+
+// Reverse the array - "num.reverse()" - reverses the order of the items in the array.
+// ex. num = ['-', '5', '4', '3', '2', '1', '0', '0']
+//     num.reverse(); // num equals ['0', '0', '1', '2', '3', '4', '5', '-']
 
