@@ -26,7 +26,13 @@ const reversedNum = num => parseFloat(num.toString().split('').reverse().join(''
 //     num.join(''); // num = '0012345-'
 
 
-// Parse the input value into a floating point number - "parseFloat(num)" - converts "num" into a float from a string.
+// Parse the input value into a floating point number - "parseFloat(num)" - converts "num" into a float from a string. The code runs in the end (even though it is on the first line of the function) on the reversed number and removes any leading zeros.
 // ex. num = '0012345-'
 //     parseFloat(num); // num = 12345
+
+
+// Multiply it by the sign of the orginal number (to maintain the negative value) - "num * Math.sign(num)" - multiplies the number with the sign of the original number provided.
+// ex. original value of num = -5432100
+//                       num = 12345
+//     num * Math.sign(-5432100); // num = -12345
 
