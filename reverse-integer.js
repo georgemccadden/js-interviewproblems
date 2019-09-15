@@ -26,3 +26,7 @@ const reversedNum = num => parseFloat(num.toString().split('').reverse().join(''
 //     num.join(''); // num = '0012345-'
 
 
+// Parse the input value into a floating point number - "parseFloat(num)" - converts "num" into a float from a string.
+// ex. num = '0012345-'
+//     parseFloat(num); // num = 12345
+
