@@ -3,9 +3,13 @@
 const reverse = require('./reverse-in-place');
 
 test('Reverse function exists', () => {
-    expect(reverse).toBeDefined();
+  expect(reverse).toBeDefined();
 });
 
 test('Reverse function reverses a string', () => {
-    expect(reverse('abcd')).toEqual('dcba');
+  expect(reverse('abcd')).toEqual('dcba');
+});
+
+test('Reverse function reverses a string', () => {
+  expect(reverse('  abcd')).toEqual('dcba  ');
 });
