@@ -7,14 +7,21 @@ function anagramOrNah(string1, string2) {
   if (string1.length !== string2.length) {
     return false; // If the length is not equal, I know that it can't possibly be an anagram.
   }
-  // Now I'm creating a frequency counter to keep track of the characters in the strings.
-  let frequencyCounter1 = {};
-  let frequencyCounter2 = {};
+  // Now I'm creating a frequency counter to keep track of the characters in the first string.
+  let frequencyCounter = {};
 
   for (let val of string1) {
-    frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
+    // If the letter or 'val' exists, increment, otherwise set to 1.
+    frequencyCounter[val] ? frequencyCounter[val] += 1 : frequencyCounter[val] = 1;
   }
   for (let key of string2) {
-    frequencyCounter2[key] = 
+    // I need to check if the letter even exists, if not, return false.
+    if (!frequencyCounter[key]) {
+      return false;
+    } else {
+      frequencyCounter[key] -= 1;
+    }
   }
+  return true;
 }
+
