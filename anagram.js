@@ -19,6 +19,7 @@ function anagramOrNah(string1, string2) {
     if (!frequencyCounter[key]) {
       return false;
     } else {
+      // If we find a letter that is in our dictionary then we'll decrement its value.
       frequencyCounter[key] -= 1;
     }
   }
