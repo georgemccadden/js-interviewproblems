@@ -24,6 +24,8 @@ function palindrome(str) {
     return str === reversed;
 }
 
+module.exports = palindrome;
+
 // Algorithm 2 :
 
 // - Compare the first element of the string with the last element and iterate that same comparison until you reach the middle of the array.
@@ -31,3 +33,5 @@ function palindrome(str) {
 
 
 // Solution 2 : 
+
+function pal
