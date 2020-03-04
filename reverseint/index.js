@@ -28,4 +28,4 @@ function reverseInt(n) {
     return parseInt(reversed);
 }
 
-module.export = reverseInt;
+module.exports = reverseInt;
