@@ -9,7 +9,7 @@
 // palindrome("abcdefg") === false
 
 
-// Algorithm :
+// Algorithm 1 :
 
 // - Create a variable for the passed in string.
 // - Reverse the passed in string.
@@ -24,4 +24,10 @@ function palindrome(str) {
     return str === reversed;
 }
 
-// Solution 2 :
+// Algorithm 2 :
+
+// - Compare the first element of the string with the last element and iterate that same comparison until you reach the middle of the array.
+// - If any of the elements don't equal the current elemnt then return false.
+
+
+// Solution 2 : 
