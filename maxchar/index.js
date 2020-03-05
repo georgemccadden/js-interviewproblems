@@ -17,7 +17,9 @@
 
 // Create a function which accepts a string.
 // Create an empty character map.
+// Create a variable to hold the maximum number of times a character is repeated.
+// Create a variable to hold the letter that's associated with that max number.
 // From that passed in string, build a character map representing the string and the amount of characters.
 // If a character isn't yet present in the map, start it off at 1 but if that character is present add one to its existing amount.
-
+// 
 
