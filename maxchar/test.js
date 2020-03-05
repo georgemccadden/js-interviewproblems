@@ -1,10 +1,14 @@
-// Problem Domain :
+const maxChar = require('./index');
 
-// Given a string, return the character that is most commonly used in the string.
+test('maxChar function exists', () => {
+  expect(typeof maxChar).toEqual('function');
+});
 
+test('Finds the most frequently used char', () => {
+  expect(maxChar('a')).toEqual('a');
+  expect(maxChar('abcdefghijklmnaaaaa')).toEqual('a');
+});
 
-// Visual :
-
-// maxChar("abcccccccd") = "c"
-// maxChar("apple 1231111") = "1"
-
+test('Works with numbers in the string', () => {
+  expect(maxChar('ab1c1d1e1f1g1')).toEqual('1');
+});
