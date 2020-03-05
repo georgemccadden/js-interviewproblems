@@ -39,3 +39,5 @@ function reverseInt(n) {
 
     return parseInt(reversed) * Math.sign(n);
 }
+
+module.exports = reverseInt;
