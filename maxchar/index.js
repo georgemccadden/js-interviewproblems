@@ -13,3 +13,11 @@
 // maxChar("abcccccccd") = "c"
 // maxChar("apple 1231111") = "1"
 
+// Algorithm 1 :
+
+// Create a function which accepts a string.
+// Create an empty character map.
+// From that passed in string, build a character map representing the string and the amount of characters.
+// If a character isn't yet present in the map, start it off at 1 but if that character is present add one to its existing amount.
+
+
