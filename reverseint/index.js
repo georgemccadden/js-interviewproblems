@@ -19,6 +19,8 @@
 // - Determine if integer passed in was negative or not, if so make the inverse negative as well but if not make it positive.
 // - Return the integer.
 
+// Solution 1 :
+
 function reverseInt(n) {
     const reversed = n.toString().split('').reverse().join('');
 
@@ -29,3 +31,11 @@ function reverseInt(n) {
 }
 
 module.exports = reverseInt;
+
+// Solution 1 (cleaner) :
+
+function reverseInt(n) {
+    const reversed = n.toString().split('').reverse().join('');
+
+    return parseInt(reversed) * Math.sign(n);
+}
