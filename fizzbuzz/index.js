@@ -16,3 +16,5 @@
 // fizzbuzz
 // 16
 
+
+// Algorithm 1 :
