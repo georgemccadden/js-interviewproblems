@@ -8,10 +8,12 @@
 // Does string A have the same characters as string B? (Is it an anagram?)
 // Does the given string have any repeated characters in it?
 
+
 // Visual :
 
 // maxChar("abcccccccd") = "c"
 // maxChar("apple 1231111") = "1"
+
 
 // Algorithm 1 :
 
@@ -24,3 +26,19 @@
 // Iterate through the character map created from the passed in string and update the max number and its associated character.
 // After the iteration is complete, return the character with the max number.
 
+
+// Solution 1 :
+
+function maxChar(str) {
+    const charMap = {};
+    let max = 0;
+    let maxChar = '';
+
+    for (let char of str) {
+        if (charMap[char]) {
+            charMap[char]++;
+        } else {
+            charMap[char] = 1;
+        }
+    }
+}
