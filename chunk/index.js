@@ -41,4 +41,10 @@ function chunk(array, size) {
     return chunked;
 }
 
+// Algorithm 2 :
+
+// - Create a function which accepts an array and a number.
+// - Create an empty "chunked" array.
+
+
 module.exports = chunk;
