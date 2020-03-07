@@ -33,6 +33,8 @@ function chunk(array, size) {
 
         if (!last || last.length === size) {
             chunked.push([element]);
-        } else 
+        } else {
+            last.push(element);
+        }
     }
 }
