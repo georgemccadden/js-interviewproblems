@@ -20,3 +20,19 @@
 // - * Retrieve the last element in the "chunked" array *
 // - * If the last element doesn't exist or if its length is equal to chunk size then push a new chunk into "chunked" array with the current element.
 // - * If anything else, add the current element to the "chunked" array.
+// - Return the chunked array.
+
+
+// Solution 1 :
+
+function chunk(array, size) {
+    const chunked = [];
+
+    for (let element of array) {
+        const last = chunked[chunked.length - 1];
+
+        if (!last || last.length === size) {
+            chunked.push([element]);
+        } else 
+    }
+}
