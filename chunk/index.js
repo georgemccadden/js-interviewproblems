@@ -50,4 +50,16 @@ function chunk(array, size) {
 // - Push a slice using the length of the passed in number (size) from the passed in array into the "chunked" array.
 // - Add passed in number (size) to index.
 
+function chunk(array, size) {
+    const chunked = [];
+    let index = 0;
+
+    while (index < array.length) {
+        chunked.push(array.slice(index, index + size))
+        index += size;
+    }
+
+    return chunked;
+}
+
 module.exports = chunk;
