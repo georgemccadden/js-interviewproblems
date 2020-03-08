@@ -43,8 +43,11 @@ function chunk(array, size) {
 
 // Algorithm 2 :
 
-// - Create a function which accepts an array and a number.
-// - Create an empty "chunked" array.
-
+// - Create a function which accepts an array and a number
+// - Create an empty "chunked" array
+// - Create an index variable which starts at 0
+// - Iterate through the passed in array while the length of index is less than the length of the passed in array.
+// - Push a slice using the length of the passed in number (size) from the passed in array into the "chunked" array.
+// - Add passed in number (size) to index.
 
 module.exports = chunk;
