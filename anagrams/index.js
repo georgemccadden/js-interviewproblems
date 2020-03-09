@@ -69,3 +69,15 @@ function anagrams(stringA, stringB) {
 }
 
 module.exports = anagrams;
+
+// Solution 3
+
+function anagrams(stringA, StringB) {
+    return cleanString(stringA) === cleanString(stringB);
+}
+
+function cleanString(srt) {
+    str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+}
+
+module.exports = anagram;
