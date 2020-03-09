@@ -16,6 +16,9 @@
 // word.replace(/[^\w]/g, "").toLowerCase(); // 'hithere'
 
 function anagrams(stringA, stringB) {
+    if (stringA.length === stringB.length) {
+        
+    }
 
 }
 
