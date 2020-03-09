@@ -27,10 +27,11 @@ function anagrams(stringA, stringB) {
     for (let key of stringB) {
         if (!frequency[key]) {
             return false;
+        } else {
+            frequency[key] -= 1;
         }
-        
     }
-
+    return true;
 }
 
 module.exports = anagrams;
