@@ -8,6 +8,13 @@
 // anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 // anagrams('Hi there', 'Bye there') --> False
 
+
+// * Please Remember *
+
+// const word = "HI THERE!!!!";
+
+// word.replace(/[^\w]/g, "").toLowerCase(); // 'hithere'
+
 function anagrams(stringA, stringB) {
 
 }
