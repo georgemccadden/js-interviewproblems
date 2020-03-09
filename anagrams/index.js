@@ -24,6 +24,12 @@ function anagrams(stringA, stringB) {
     for (let val of stringA) {
         frequency[val] ? frequency[val] += 1 : frequency[val] = 1;
     }
+    for (let key of stringB) {
+        if (!frequency[key]) {
+            return false;
+        }
+        
+    }
 
 }
 
