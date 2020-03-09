@@ -16,8 +16,13 @@
 // word.replace(/[^\w]/g, "").toLowerCase(); // 'hithere'
 
 function anagrams(stringA, stringB) {
-    if (stringA.length === stringB.length) {
-        
+    let frequency = {};
+
+    if (stringA.length !== stringB.length) {
+        return false;
+    }
+    for (let val of stringA) {
+        frequency[val] ? frequency[val] += 1 : frequency[val] = 1;
     }
 
 }
