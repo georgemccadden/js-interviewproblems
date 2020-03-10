@@ -10,6 +10,12 @@
 // capitalize('look, it is working!') --> 'Look, It Is Working!'
 
 
+// Algorithm 1 :
+
+// - Make an empty array for the words.
+// - Split the input string by spaces in order to create an array.
+// - 
+
 // Solution 1 :
 
 function capitalize(str) {
