@@ -30,4 +30,15 @@ function capitalize(str) {
     return words.join(' ');
 }
 
+
+// Alogirithm 2 :
+
+// - Create a result variable which capitalizes the first letter of the passed in string.
+// - Iterate through the string and look to see if there is a space to the left of each character. If so, capitalize that character and then add it to the result variable. If not, add it to the result variable.
+
+
+// Solution 2 :
+
+
+
 module.exports = capitalize;
