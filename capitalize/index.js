@@ -41,9 +41,6 @@
 
 function capitalize(str) {
     let result = str[0].toUpperCase();
-    let words = str.split(' ');
-
-    result.push(words[0].toUpperCase());
 
     for (let i = 1; i < words.length; i++) {
         if (words[i] === ' ') {
