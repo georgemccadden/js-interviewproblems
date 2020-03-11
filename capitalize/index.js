@@ -42,14 +42,14 @@
 function capitalize(str) {
     let result = str[0].toUpperCase();
 
-    for (let i = 1; i < words.length; i++) {
-        if (words[i] === ' ') {
-            result.push(words[i + 1].toUpperCase());
+    for (let i = 1; i < str.length; i++) {
+        if (words[i - 1] === ' ') {
+            result += str[i].toUpperCase();
         } else {
-            result.push(words[i]);
+            result += str[i];
         }
 
-        return result.join(' ');
+        return result;
     }
 }
 
