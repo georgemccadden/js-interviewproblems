@@ -20,15 +20,15 @@
 
 // Solution 1 :
 
-function capitalize(str) {
-    const words = [];
+// function capitalize(str) {
+//     const words = [];
 
-    for (let word of str) {
-        words.push(word[0].toUpperCase() + word.slice(1));
-    }
+//     for (let word of str) {
+//         words.push(word[0].toUpperCase() + word.slice(1));
+//     }
 
-    return words.join(' ');
-}
+//     return words.join(' ');
+// }
 
 
 // Alogirithm 2 :
@@ -40,16 +40,16 @@ function capitalize(str) {
 // Solution 2 :
 
 function capitalize(str) {
-    const result = [];
+    let result = str[0].toUpperCase();
     let words = str.split(' ');
 
-    result.push(str[0].toUpperCase());
+    result.push(words[0].toUpperCase());
 
     for (let i = 1; i < words.length; i++) {
         if (words[i] === ' ') {
-            result.push(str[i + 1].toUpperCase());
+            result.push(words[i + 1].toUpperCase());
         } else {
-            result.push(str[i]);
+            result.push(words[i]);
         }
 
         return result.join(' ');
