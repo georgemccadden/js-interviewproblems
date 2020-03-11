@@ -39,6 +39,11 @@ function capitalize(str) {
 
 // Solution 2 :
 
+function capitalize(str) {
+    const result = [];
+    let words = str.split(' ');
 
+    result.push(str[0].toUpperCase())
+}
 
 module.exports = capitalize;
