@@ -20,6 +20,7 @@
 // '### '
 // '####'
 
+
 // Algorithm :
 
 // - Iterate until you reach the passed in number
@@ -30,3 +31,7 @@
 // - - - Else :
 // - - - - Add a space to 'stair'
 // - - Console log 'stair'
+
+
+// Code :
+
