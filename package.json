@@ -1,0 +1,24 @@
+{
+  "name": "js-interviewproblems",
+  "version": "1.0.0",
+  "description": "This repository is a collection of problems that are usually asked during tech interviews.",
+  "main": "anagram.js",
+  "dependencies": {
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thethirdone-g/js-interviewproblems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thethirdone-g/js-interviewproblems/issues"
+  },
+  "homepage": "https://github.com/thethirdone-g/js-interviewproblems#readme"
+}

@@ -19,3 +19,14 @@
 // '##  '
 // '### '
 // '####'
+
+// Algorithm :
+
+// - Iterate until you reach the passed in number
+// - - Create an empty string for the 'stair'
+// - - Iterate until you reach the passed in number
+// - - - If the current iteration number is equal to or less than than the first iteration number then :
+// - - - - Add a '#' to 'stair'
+// - - - Else :
+// - - - - Add a space to 'stair'
+// - - Console log 'stair'
