@@ -56,6 +56,7 @@ function printNumber(n) {
     }
 
     console.log(n);
+    printNumber(n - 1);
 }
 
 module.exports = steps;
