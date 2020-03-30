@@ -79,4 +79,10 @@ function steps(n, row = 0, stair = '') {
         console.log(stair);
         return steps(n, row + 1);
     }
+
+    if (stair.length <= row) {
+        stair += '#';
+    } else {
+        stair += ' ';
+    }
 }
