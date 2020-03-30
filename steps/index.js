@@ -85,4 +85,5 @@ function steps(n, row = 0, stair = '') {
     } else {
         stair += ' ';
     }
+    steps(n, row, stair);
 }
