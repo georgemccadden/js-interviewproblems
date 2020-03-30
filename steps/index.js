@@ -63,3 +63,7 @@ module.exports = steps;
 
 // Recursive Algorithm :
 
+// - If (row === n) then you have hit the end of the problem
+// - If the 'stair' string has a length of === n then you are at the end of that row
+// - If the length of the stair string is less than or equal to the row number you're working on, add a '#', otherwise add a space.
+
