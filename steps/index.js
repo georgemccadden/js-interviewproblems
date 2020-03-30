@@ -67,3 +67,16 @@ module.exports = steps;
 // - If the 'stair' string has a length of === n then you are at the end of that row
 // - If the length of the stair string is less than or equal to the row number you're working on, add a '#', otherwise add a space.
 
+
+// Code :
+
+function steps(n, row = 0, stair = '') {
+    if (n === row) {
+        return;
+    }
+
+    if (n === stair.length) {
+        console.log(stair);
+        return steps(n, row + 1);
+    }
+}
