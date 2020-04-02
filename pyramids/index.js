@@ -14,5 +14,7 @@
 // ' ### '
 // '#####'
 
+
 // Algorithm :
 
+// - Iterate through your rows (from 0 to n)
