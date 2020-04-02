@@ -18,3 +18,4 @@
 // Algorithm :
 
 // - Iterate through your rows (from 0 to n)
+// - - Create an empty string (for levels)
