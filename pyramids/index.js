@@ -30,7 +30,11 @@ function pyramid(n) {
         let level = '';
 
         for (let column = 0; column < 2 * n - 1; column++) {
-            
+            if (midpoint - row  <= column && midpoint + row >= column) {
+                level += '#';
+            } else {
+                level += ' ';
+            }
         }
     }
 }
