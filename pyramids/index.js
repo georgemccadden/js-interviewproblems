@@ -37,4 +37,5 @@ function pyramid(n) {
             }
         }
     }
+    console.log(level);
 }
