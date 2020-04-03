@@ -19,3 +19,13 @@
 
 // - Iterate through your rows (from 0 to n)
 // - - Create an empty string (for levels)
+
+
+
+// Code :
+
+function pyramid(n) {
+    for (let row = 0; row < n; row++) {
+        let level = '';
+    }
+}
