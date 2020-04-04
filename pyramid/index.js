@@ -47,4 +47,9 @@ function pyramid(n) {
     }
 }
 
+
+// Recursive Algorithm :
+
+// If row === n then return just the top portion of the pyramid.
+//
 module.exports = pyramid;
