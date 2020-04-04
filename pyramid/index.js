@@ -22,6 +22,9 @@
 // - - Iterate through each column (from 0 to n)
 // - - - If the current column is equal to or less than the current row :
 // - - - - Add a '#' to 'stair'
+// - - - Else ;
+// - - - - Add a space to 'level'
+// - - Console log 'stair'
 
 
 
