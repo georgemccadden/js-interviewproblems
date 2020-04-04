@@ -17,7 +17,7 @@
 
 // Algorithm :
 
-// - Iterate through your rows (from 0 to n)
+// - Iterate through each row of our output (from 0 to n)
 // - - Create an empty string (for levels)
 
 
