@@ -19,6 +19,9 @@
 
 // - Iterate through each row of our output (from 0 to n)
 // - - Create an empty string (for levels)
+// - - Iterate through each column (from 0 to n)
+// - - - If the current column is equal to or less than the current row :
+// - - - - Add a '#' to 'stair'
 
 
 
