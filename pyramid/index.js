@@ -52,4 +52,15 @@ function pyramid(n) {
 
 // If row === n then return just the top portion of the pyramid.
 //
+
+function recursivePyramid(n, row = 0, level = '') {
+    if (row === n) {
+        return;
+    }
+
+    if (level.length === 2 * n - 1) {
+        console.log(level);
+        return recursivePyramid(n, row + 1);
+    }
+}
 module.exports = pyramid;
