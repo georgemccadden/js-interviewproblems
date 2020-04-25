@@ -11,6 +11,9 @@
 //   vowels('Why do you ask?') --> 4
 //   vowels('Why?') --> 0
 
+
+// Iterative Solution :
+
 function vowels(str) {
     let counter = 0;
     const checker = ['a', 'e', 'i', 'o', 'u'];
