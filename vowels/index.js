@@ -35,5 +35,5 @@
 
 function vowels(str) {
     const matches = str.match(/[aeiou]gi/);
-    matches ? match.length : 0;
+    return matches ? match.length : 0;
 }
