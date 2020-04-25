@@ -13,6 +13,13 @@
 
 function vowels(str) {
     let counter = 0;
+
+    for (let char of str) {
+        if (char === 'a' || 'e' || 'i' || 'o' || 'u') {
+            counter++
+        }
+    }
+    return counter;
 }
 
 module.exports = vowels;
