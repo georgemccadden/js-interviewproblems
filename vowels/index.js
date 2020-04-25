@@ -13,13 +13,15 @@
 
 function vowels(str) {
     let counter = 0;
+    const checker = 'aeiou';
     
 
     for (let char of str.toLowerCase()) {
-        if (char === 'a' || 'e' || 'i' || 'o' || 'u') {
+        
             counter++
         }
     }
+
     return counter;
 }
 
