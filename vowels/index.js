@@ -14,28 +14,28 @@
 
 // Iterative Solution :
 
-// function vowels(str) {
-//     let counter = 0;
-//     const checker = ['a', 'e', 'i', 'o', 'u'];
+function vowels(str) {
+    let counter = 0;
+    const checker = ['a', 'e', 'i', 'o', 'u'];
     
 
-//     for (let char of str.toLowerCase()) {
-//         if (checker.includes(char)) {
-//             counter++
-//         }
-//     }
+    for (let char of str.toLowerCase()) {
+        if (checker.includes(char)) {
+            counter++
+        }
+    }
 
-//     return counter;
-// }
+    return counter;
+}
 
-// module.exports = vowels;
+export default vowels;
 
 
 // Regex Solution :
 
-function vowels(str) {
-    const matches = str.toLowerCase().match(/[aeiou]/gi);
-    return matches ? matches.length : 0
-}
+// function vowels(str) {
+//     const matches = str.toLowerCase().match(/[aeiou]/gi);
+//     return matches ? matches.length : 0
+// }
 
-module.exports = vowels;
+// export default vowels;
