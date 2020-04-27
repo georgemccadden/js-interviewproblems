@@ -71,5 +71,12 @@
                 counter++;
             }
             endRow--;
+
+            // Start column of the matrix
+            for (let i = endRow; i >= startRow; i--) {
+                results[i][startColumn] = counter;
+                counter++;
+            }
+            startColumn++;
         }
     }
