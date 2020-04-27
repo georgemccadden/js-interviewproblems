@@ -32,3 +32,4 @@
         // - at results [i][end column] assign counter variable
         // - increment counter
     // - decrement end row
+    // - repeat for other sides
