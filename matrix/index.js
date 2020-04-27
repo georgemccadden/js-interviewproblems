@@ -31,7 +31,7 @@
     // - loop from start row to end row
         // - at results [i][end column] assign counter variable
         // - increment counter
-    // - decrement end row
+    // - decrement end column
     // - repeat for other sides
 
 
@@ -63,5 +63,12 @@
                 results[i][endColumn] = counter;
                 counter++;
             }
+
+            // Bottom row of matrix
+            for (let i = endColumn; i >= startColumn; i--) {
+                results[endRow][i] = counter;
+                counter++;
+            }
+            endRow--;
         }
     }
