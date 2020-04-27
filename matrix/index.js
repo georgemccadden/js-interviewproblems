@@ -21,7 +21,14 @@
 
 // Algorithm :
 
- // Create an empty array of arrays called 'results'.
- // Create a counter variale starting at 1.
+ // Create an empty array of arrays called 'results'
+ // Create a counter variale starting at 1
  // As long as (start column <= end column) AND (start row <= end row)
-    // - loop from start
+    // - loop from start column to end column
+        // - at results [start row][i] assign counter variable
+        // - increment counter
+    // - increment start row
+    // - loop from start row to end row
+        // - at results [i][end column] assign counter variable
+        // - increment counter
+    // - decrement end row
