@@ -33,3 +33,10 @@
         // - increment counter
     // - decrement end row
     // - repeat for other sides
+
+
+    // Solution :
+
+    function matrix(n) {
+        const results = [];
+    }
