@@ -63,6 +63,7 @@
                 results[i][endColumn] = counter;
                 counter++;
             }
+            endColumn--;
 
             // Bottom row of matrix
             for (let i = endColumn; i >= startColumn; i--) {
