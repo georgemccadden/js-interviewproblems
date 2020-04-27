@@ -57,5 +57,11 @@
                 counter++;
             }
             startRow++;
+
+            // Far right column of the matrix
+            for (let i = startRow; i <= endRow; i++) {
+                results[i][endColumn] = counter;
+                counter++;
+            }
         }
     }
