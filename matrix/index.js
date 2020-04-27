@@ -43,4 +43,6 @@
         for (let i = 0; i < n; i++) {
             results.push([]);
         }
+        
+        let counter = 1;
     }
