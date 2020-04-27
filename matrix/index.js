@@ -17,3 +17,9 @@
 //     [12, 13, 14, 5],
 //     [11, 16, 15, 6],
 //     [10,  9,  8, 7]]
+
+
+// Algorithm :
+
+ // Create an empty array of arrays called 'results'.
+ // 
