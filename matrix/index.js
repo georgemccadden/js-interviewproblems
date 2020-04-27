@@ -79,4 +79,6 @@
             }
             startColumn++;
         }
+
+        return results;
     }
