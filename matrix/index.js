@@ -82,3 +82,5 @@
 
         return results;
     }
+
+module.exports = matrix;
