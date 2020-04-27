@@ -51,6 +51,11 @@
         let endRow = n - 1;
 
         while (startColumn <= endColumn && startRow <= endRow) {
-            
+            // Top row of the matrix
+            for (let i = startColumn; i <= endColumn; i++) {
+                results[startRow][i] = counter;
+                counter++;
+            }
+            startRow++;
         }
     }
