@@ -22,4 +22,6 @@
 // Algorithm :
 
  // Create an empty array of arrays called 'results'.
- // 
+ // Create a counter variale starting at 1.
+ // As long as (start column <= end column) AND (start row <= end row)
+    // - loop from start
