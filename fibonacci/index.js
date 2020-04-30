@@ -12,4 +12,4 @@
 
 function fib(n) {}
 
-module.exports = fib;
+export default fib;
