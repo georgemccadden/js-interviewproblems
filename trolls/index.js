@@ -8,4 +8,12 @@
 // The string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!" * 'y' isn't considered a vowel *
 
 
-// 
+// Algorithm :
+
+// - Function must accept a string
+// - Use regex to replace each vowel with an empty space
+// - Make sure the regex is case insensitive
+// - return the string with the missing characters
+
+
+// Code :
