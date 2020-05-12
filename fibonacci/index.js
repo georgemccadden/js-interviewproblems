@@ -10,7 +10,10 @@
 
 // Solution :
 
-function fib(n) {}
+function fib(n) {
+    const sequence = [0, 1];
+    
+}
 
 
-export default fib;
+module.exports = fib;
