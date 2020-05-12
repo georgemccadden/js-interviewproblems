@@ -8,11 +8,21 @@
 // fib(4) === 3
 
 
+// Algorithm :
+
+// - Write a program which accepts a number (this will be the index we stop on)
+// - Create a collection which holds the first two entries of the fibonacci sequence
+// - Iterate through the collection beginning at the third entry and stop at the passed in number (index)
+
 // Solution :
 
 function fib(n) {
     const sequence = [0, 1];
-    
+
+    for (let i = 2; i <= n; i++) {
+
+    }
+
 }
 
 
