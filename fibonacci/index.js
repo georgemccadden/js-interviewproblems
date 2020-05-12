@@ -13,7 +13,9 @@
 // - Write a program which accepts a number (this will be the index we stop on)
 // - Create a collection which holds the first two entries of the fibonacci sequence
 // - Iterate through the collection beginning at the third entry and stop at the passed in number (index)
-// - Create variables to keep track of the indexes needed to add
+// - Create variables to keep track of the indexes needed to add and make sure they correspond to the next two indexes with each iteration
+// - Push the sum of the two variables into the collection
+// - Return the index of the sequence which was passed into the function
 
 // Solution :
 
@@ -24,7 +26,10 @@ function fib(n) {
         const a = sequence[i - 1] // index 1
         const b = sequence[i - 2] // index 0
 
+        sequence.push(a + b);
     }
+
+    return sequence[n]; // or return sequence[sequence.length - 1] which is the last index
 
 }
 
