@@ -13,6 +13,7 @@
 // - Write a program which accepts a number (this will be the index we stop on)
 // - Create a collection which holds the first two entries of the fibonacci sequence
 // - Iterate through the collection beginning at the third entry and stop at the passed in number (index)
+// - Create variables to keep track of the indexes needed to add
 
 // Solution :
 
