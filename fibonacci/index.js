@@ -20,6 +20,8 @@ function fib(n) {
     const sequence = [0, 1];
 
     for (let i = 2; i <= n; i++) {
+        const a = sequence[i - 1] // index 1
+        const b = sequence[i - 2] // index 0
 
     }
 
