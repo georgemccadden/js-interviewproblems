@@ -41,7 +41,7 @@ function fib(n) {
         return n; // Obviously the 0 index and first index will be 0 and 1
     }
 
-    return fib(n - 1) + fib(n - 2);
+    return fib(n - 1) + fib(n - 2); // These are each function calls so follow the chain of operations and add the remainders
 }
 
 module.exports = fib;
