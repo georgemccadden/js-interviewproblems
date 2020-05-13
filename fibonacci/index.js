@@ -34,7 +34,7 @@ function fib(n) {
 }
 
 
-// Recursive Solution :
+// O(2^n) Exponential Recursive Solution :
 
 function fib(n) {
     if (n < 2) {
