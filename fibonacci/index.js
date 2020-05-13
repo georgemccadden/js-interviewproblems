@@ -17,7 +17,7 @@
 // - Push the sum of the two variables into the collection
 // - Return the index of the sequence which was passed into the function
 
-// Solution :
+// O(n) Linear Solution :
 
 function fib(n) {
     const sequence = [0, 1];
