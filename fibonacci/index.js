@@ -36,6 +36,10 @@ function fib(n) {
 
 // Recursive Solution :
 
-
+function fib(n) {
+    if (n < 2) {
+        return n; // Obviously the 0 index and first index will be 0 and 1
+    }
+}
 
 module.exports = fib;
