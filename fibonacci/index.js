@@ -47,6 +47,10 @@ function slowFib(n) {
 
 // Memoize Solution :
 
+function memoize(fn) {
+    function(...args) { // ES6 making sure that any and every argument is considered
 
+    }
+}
 
 module.exports = fib;
