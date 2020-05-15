@@ -48,6 +48,7 @@ function slowFib(n) {
 // Memoize Solution :
 
 function memoize(fn) {
+    const cache = {};
     function(...args) { // ES6 making sure that any and every argument is considered
 
     }
