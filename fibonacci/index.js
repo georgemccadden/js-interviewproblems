@@ -36,12 +36,17 @@ function fib(n) {
 
 // O(2^n) Exponential Recursive Solution :
 
-function fib(n) {
+function slowFib(n) {
     if (n < 2) {
         return n; // Obviously the 0 index and first index will be 0 and 1
     }
 
     return fib(n - 1) + fib(n - 2); // These are each function calls so follow the chain of operations and add the remainders
 }
+
+
+// Memoize Solution :
+
+
 
 module.exports = fib;
