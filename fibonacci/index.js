@@ -56,7 +56,8 @@ function memoize(fn) {
 
         const result = fn.apply(this, args);
         cache[args] = result;
-        
+
+        return result;
     }
 }
 
