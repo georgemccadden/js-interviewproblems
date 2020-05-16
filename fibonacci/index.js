@@ -50,7 +50,13 @@ function slowFib(n) {
 function memoize(fn) {
     const cache = {};
     function(...args) { // ES6 making sure that any and every argument is considered
+        if (cache[args]) {
+            return cache[args];
+        }
 
+        const result = fn.apply(this, args);
+        cache[args] = result;
+        
     }
 }
 
