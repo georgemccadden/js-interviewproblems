@@ -25,3 +25,11 @@
 //     { startTime: 9, endTime: 12 },
 // ]
 
+
+
+// Algorithm :
+
+// - Treat the meeting with the earlier start time as 'first,' and the other as 'second'
+// - If the end time of the first meeting is equal to or greater than the start time of the second meeting, merge the two meetings into one time range. The resulting time range's start time is the first meeting's start, and its end time is the later of the two meetings' end times
+// Else, leave them separate
+
