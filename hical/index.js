@@ -29,7 +29,10 @@
 
 // Algorithm :
 
-// - Treat the meeting with the earlier start time as 'first,' and the other as 'second'
-// - If the end time of the first meeting is equal to or greater than the start time of the second meeting, merge the two meetings into one time range. The resulting time range's start time is the first meeting's start, and its end time is the later of the two meetings' end times
-// Else, leave them separate
+// - Sort your input array of meetings by start time so any meetings that might need to be merged are now next to each other
+// - Walk through the sorted meetings from left to right. At each step, either :
+// - You can merge the current meeting with the previous one, so proceed
+// - Or you can't merge the current meeting with the previous one, so you know the previous meeting can't be merged with any future meetings and you throw the current meeting into mergedMeetings
+
+
 
