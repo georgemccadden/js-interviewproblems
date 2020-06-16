@@ -17,3 +17,11 @@
 //   { startTime: 9,  endTime: 10 },
 // ]
 
+// Your function will return :
+
+// [
+//     { startTime: 0, endTime: 1 },
+//     { startTime: 3, endTime: 8 },
+//     { startTime: 9, endTime: 12 },
+// ]
+
