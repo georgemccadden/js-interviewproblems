@@ -5,3 +5,4 @@
 // { startTime : 2, endTime : 3 } // meeting from 10:00 am - 10:30 am
 // { startTime : 6, endTime : 9 } // meeting from 12:00 pm - 1:30 pm
 
+// Write a function mergeRanges() that takes an array of multiple meeting time ranges and returns an array of condensed ranges.
