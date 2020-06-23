@@ -37,4 +37,8 @@
 
 // Solution :
 
-
+function mergeRanges(meetings) {
+    // Create a deep copy of the meetings array
+    
+    const meetingsCopy = JSON.parse(JSON.stringify(meetings));
+}
