@@ -38,7 +38,13 @@
 // Solution :
 
 function mergeRanges(meetings) {
-    // Create a deep copy of the meetings array
+    // Creating a deep copy of the meetings array
     
     const meetingsCopy = JSON.parse(JSON.stringify(meetings));
+
+    // Sorting by start time
+
+    const sortedMeetings = meetingsCopy.sort((a, b) => {
+        return a.startTime - b.startTime;
+    });
 }
