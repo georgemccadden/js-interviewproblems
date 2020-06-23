@@ -35,4 +35,6 @@
 // - Or you can't merge the current meeting with the previous one, so you know the previous meeting can't be merged with any future meetings and you throw the current meeting into mergedMeetings
 
 
+// Solution :
+
 
