@@ -47,4 +47,9 @@ function mergeRanges(meetings) {
     const sortedMeetings = meetingsCopy.sort((a, b) => {
         return a.startTime - b.startTime;
     });
+
+    // Initializing mergedMeetings with the earliest meeting
+
+    const mergedMeetings = [sortedMeetings[0]];
+    
 }
