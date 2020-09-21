@@ -22,7 +22,7 @@ function sockMerchant(n, socksArray) {
     let pairs = 0;
 
     socksArray.forEach((sockColor) => {
-        if (!socksHashMap[socksArray]) {
+        if (!socksHashMap[sockColor]) {
             socksHashMap[sockColor] = 1;
             return;
         }
