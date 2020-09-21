@@ -26,6 +26,8 @@ function sockMerchant(n, socksArray) {
             socksHashMap[sockColor] = 1;
             return;
         }
-        
-    })
+        pairs++;
+        delete socksHashMap[sockColor];
+    });
+    return pairs;
 }
