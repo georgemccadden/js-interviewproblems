@@ -21,6 +21,8 @@ function sockMerchant(n, socksArray) {
     const socksHashMap = {};
     let pairs = 0;
 
+    if (!socksArray || socksArray.length !== n) return 0;
+
     socksArray.forEach((sockColor) => {
         if (!socksHashMap[sockColor]) {
             socksHashMap[sockColor] = 1;
