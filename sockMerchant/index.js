@@ -17,3 +17,15 @@
 
 // * CODE *
 
+function sockMerchant(n, socksArray) {
+    const socksHashMap = {};
+    let pairs = 0;
+
+    socksArray.forEach((sockColor) => {
+        if (!socksHashMap[socksArray]) {
+            socksHashMap[sockColor] = 1;
+            return;
+        }
+        
+    })
+}
