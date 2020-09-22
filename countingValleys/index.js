@@ -13,3 +13,25 @@
 // Example :
 
 // steps = 8 | path = "DDUUUUDD"
+
+
+// CODE :
+
+function countingValleys(int, path) {
+    if (!int || path.length !== int) return 0;
+  
+    let elevation = 0;
+    let valley = 0;
+  
+    for (const directions of path) {
+      if (directions == "D") {
+        elevation--;
+      } else {
+        if (elevation == -1) {
+          valley++;
+        }
+        elevation++;
+      }
+    }
+    return valley;
+  }
