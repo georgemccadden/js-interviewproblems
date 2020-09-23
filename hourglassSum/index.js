@@ -37,7 +37,15 @@ function hourglassSum(arr) {
     if (typeof arr === "object" && arr.length === 6 && arr.map(i => i.length).reduce((acc, curr) => acc + curr) === 36) {
         for (let row = 0; row <= 3; row++) {
             for (let column = 0; column <= 3; column++) {
-                
+                let sum = 0;
+
+                sum += arr[row][column];
+                sum += arr[row][column + 1];
+                sum += arr[row][column + 2];
+                sum += arr[row + 1][column + 1];
+                sum += arr[row + 2][column];
+                sum += arr[row + 2][column + 1];
+                sum += arr[row + 2][column + 2];
             }
         }
     }
