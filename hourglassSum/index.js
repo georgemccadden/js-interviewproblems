@@ -51,4 +51,5 @@ function hourglassSum(arr) {
             }
         }
     }
+    return (hourglasses.length > 0) ? Math.max(...hourglasses) : 0;
 }
