@@ -46,6 +46,8 @@ function hourglassSum(arr) {
                 sum += arr[row + 2][column];
                 sum += arr[row + 2][column + 1];
                 sum += arr[row + 2][column + 2];
+
+                hourglasses.push(sum);
             }
         }
     }
