@@ -30,3 +30,7 @@
 
 
 // Code :
+
+function hourglassSum(arr) {
+    const hourglasses = [];
+}
