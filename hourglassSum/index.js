@@ -35,6 +35,10 @@ function hourglassSum(arr) {
     const hourglasses = [];
 
     if (typeof arr === "object" && arr.length === 6 && arr.map(i => i.length).reduce((acc, curr) => acc + curr) === 36) {
-        
+        for (let row = 0; row <= 3; row++) {
+            for (let column = 0; column <= 3; column++) {
+                
+            }
+        }
     }
 }
