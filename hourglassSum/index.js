@@ -18,3 +18,15 @@
 // 0 0 2 4 4 0
 // 0 0 0 2 0 0
 // 0 0 1 2 4 0
+
+
+// Algorithm :
+
+// - Create an object to hold the hourglass values in
+// - Validate the passed in arr of hourglasses
+// - Establish the traversal of the array based on hourglass shape
+// - Sum the values of the hourglasses and save them in your object
+// - Print the maximum value at the end
+
+
+// Code :
