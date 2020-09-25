@@ -4,3 +4,9 @@
 
 
 // Example :
+
+// Input - [1, 2, 2, 3, 3]
+// Output - true
+
+// Input - [1, 3, 2, 6, 8]
+// Output - false
