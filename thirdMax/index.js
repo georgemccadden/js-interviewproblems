@@ -27,3 +27,30 @@
 // - Determine the second max and change the third max
 // - Determine the third max
 // - If there is a third max then return it but if not then return the max
+
+
+// CODE :
+
+function myThirdMax(arr) {
+  
+    let max = arr[0];
+    let secondMax = -Infinity;
+    let third = -Infinity;
+  
+    for (let i = 1; i < arr.length; i++) {
+      let element = arr[i];
+  
+      if (element > max) {
+  
+        third = secondMax;
+        secondMax = max;
+        max = element;
+      } else if (element < max && element > secondMax) {
+        third = secondMax;
+        secondMax = element;
+      } else if (element > third && element < secondMax) {
+        third = element;
+      }
+    }
+    return third === -Infinity ? max : third;
+  };
