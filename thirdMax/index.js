@@ -17,3 +17,13 @@
 // Output - 1
 // Explanation - Note that the third maximum here means the third maximum distinct number. Both numbers with value 2 are both considered as second maximum.
 
+
+// Algorithm :
+
+// - Create variables which represent the 3 largest elements in the array
+// - Iterate through the entire array
+// - Start the value comparisons
+// - Determine the max and change the second and third maxes
+// - Determine the second max and change the third max
+// - Determine the third max
+// - If there is a third max then return it but if not then return the max
