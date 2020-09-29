@@ -18,3 +18,24 @@
 
 // C O D E :
 
+var flipAndInvertImage = function(A) {
+    
+    // Reverse the array
+    let temp;
+    
+    for (let i = 0; i < A.length; i++) {
+        for (let k = 0; k < A[i].length / 2; k++) {
+            temp = A[i][k];
+            A[i][k] = A[i][A[i].length - 1 - k];
+            A[i][A[i].length - 1 - k] = temp;     
+        }
+        for (let k = 0; k < A[i].length; k++) {
+            if (A[i][k] === 1) {
+                A[i][k] = 0;
+            } else if (A[i][k] === 0) {
+                A[i][k] = 1;
+            }
+        }
+    }
+    return A;
+};
