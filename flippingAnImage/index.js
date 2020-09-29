@@ -7,3 +7,11 @@
 
 // Input - [[1, 0, 0, 1, 1, 0], [1, 1, 1 , 0, 1, 1], [0, 0, 1, 1, 0, 0]]
 // Output - [[1, 0, 0, 1, 1, 0], [0, 0, 1, 0, 0, 0], [1, 1, 0, 0, 1, 1]]
+
+
+// Algorithm :
+
+// - Reverse the passed in matrix/array
+// - Check if each item in the matrix/array is a 1 or a 0, swap them for each other.
+// - Return the mutated array.
+
