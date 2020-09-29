@@ -42,3 +42,8 @@ const sortArrayByParity = (arr) => {
     } 
     return arr;
 }
+
+// Big O Complexity :
+
+// Time : 0(n)
+// Space : 0(1)
