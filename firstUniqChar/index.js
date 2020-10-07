@@ -32,7 +32,10 @@
 
 const firstUniqChar = (string) => {
     let hashmap = {};
-    let chars = string.split('');
+    
+    for (let i = 0; i < string.length; i++) {
+        hashmap[i] = hashmap[i] + 1 || 1;
+    }
 
 
 }
