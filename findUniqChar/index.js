@@ -21,3 +21,7 @@
 // - Iterate through the string by all of its individual characters
 // - While iterating, check the character's value in the hashmap and find the first element to have 0 as their value
 // - Return that character's index
+
+
+// Big O :
+
