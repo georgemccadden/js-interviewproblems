@@ -34,8 +34,12 @@ const firstUniqChar = (string) => {
     let hashmap = {};
     
     for (let i = 0; i < string.length; i++) {
-        hashmap[i] = hashmap[i] + 1 || 1;
+        const char = string[i];
+
+        hashmap[char] = hashmap[char] + 1 || 1;
     }
+
+    for 
 
 
 }
