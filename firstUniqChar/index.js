@@ -46,6 +46,6 @@ const firstUniqChar = (string) => {
             return i;
         }
     }
-
-
+    
+    return -1;
 }
