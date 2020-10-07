@@ -26,3 +26,8 @@
 
 // Time - O(n) - Worst case scenario, but more likely that we'll find a non-repeating character before reaching the end of the string
 // Space - O(1) - We're creating a hashmap as an object so it doesn't take up that much space
+
+
+// C O D E :
+
+const firstUniqChar
