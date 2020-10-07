@@ -13,3 +13,7 @@
 
 // Explanation - With each character in the string a check must be performed to see when or if that character appears in the remaining indices of the string. As you search, the first element which does not have any repeated characters is the one which index must be returned.
 
+
+// Algorithm :
+
+// 
