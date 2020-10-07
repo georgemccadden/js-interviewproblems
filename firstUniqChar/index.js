@@ -18,7 +18,7 @@
 
 // Brute force -
 // - Iterate through the string and create a hashmap of the characters as keys and the amount of times they appear in the string as their values
-// - While iterating, check the character's value in the hashmap and find the first element to have 0 as their value
+// - While iterating, check the character's value in the hashmap and find the first element to have 1 as their value
 // - Return that character's index
 
 
@@ -30,4 +30,9 @@
 
 // C O D E :
 
-const firstUniqChar
+const firstUniqChar = (string) => {
+    let hashmap = {};
+    let chars = string.split('');
+
+
+}
