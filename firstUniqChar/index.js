@@ -39,7 +39,13 @@ const firstUniqChar = (string) => {
         hashmap[char] = hashmap[char] + 1 || 1;
     }
 
-    for 
+    for (let i = 0; i < string.length; i++) {
+        const char = string[i];
+
+        if (hashmap[char] === 1) {
+            return i;
+        }
+    }
 
 
 }
