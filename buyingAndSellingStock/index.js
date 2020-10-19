@@ -12,3 +12,13 @@
 
 // Algorithm :
 
+// - Set a default minimum price
+
+
+
+// C O D E :
+
+const buyAndSellStock = (prices) => {
+    let minBuyPrice = Infinity;
+    
+}
