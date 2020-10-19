@@ -13,7 +13,8 @@
 // Algorithm :
 
 // - Set a default minimum price
-// - Keep track of our maximum proft
+// - Keep track of our maximum profit
+// - Iterate through the list of stock prices and check if the stock price is lower than the minimum buy price, if so, update that variable
 
 
 
@@ -23,5 +24,10 @@ const buyAndSellStock = (prices) => {
     let minBuyPrice = Infinity;
     let maxProfit = 0;
 
-    
+    for (let price of prices) {
+        if (price < minBuyPrice) {
+            minBuyPrice = price;
+        }
+    }
+
 }
