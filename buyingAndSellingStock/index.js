@@ -13,6 +13,7 @@
 // Algorithm :
 
 // - Set a default minimum price
+// - Keep track of our maximum proft
 
 
 
@@ -20,5 +21,7 @@
 
 const buyAndSellStock = (prices) => {
     let minBuyPrice = Infinity;
+    let maxProfit = 0;
+
     
 }
