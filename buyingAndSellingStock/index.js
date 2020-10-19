@@ -15,7 +15,8 @@
 // - Set a default minimum price
 // - Keep track of our maximum profit
 // - Iterate through the list of stock prices and check if the stock price is lower than the minimum buy price, if so, update that variable
-
+// - If the stock price minus the minBuyPrice is greater than the maxProfit, update that variable
+// - Return the maxProfit
 
 
 // C O D E :
@@ -27,7 +28,9 @@ const buyAndSellStock = (prices) => {
     for (let price of prices) {
         if (price < minBuyPrice) {
             minBuyPrice = price;
+        } else if (price - minBuyPrice > maxProfit) {
+            maxProfit = price - minBuyPrice;
         }
     }
-
+    return maxProfit;
 }
