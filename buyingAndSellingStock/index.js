@@ -34,3 +34,7 @@ const buyAndSellStock = (prices) => {
     }
     return maxProfit;
 }
+
+// BIG O :
+
+// 
